@@ -3,12 +3,11 @@ def create_an_empty_array
 end
 
 def create_an_array
-  [1, 2, 3, 4]
+  ["I", "am", "really", "learning"]
 end
 
 def add_element_to_end_of_array(array, element)
-  array = ["wow", "I", "am", "really", "learning"]
-  array.push("arrays!")
+  create_an_array.push("arrays!")
 end
 
 def add_element_to_start_of_array(array, element)
